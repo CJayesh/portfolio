@@ -9,7 +9,7 @@ function Layout({children}: Props) {
   return (
     <>
         <Navbar />
-        <div id='content' className='h-screen flex items-center justify-center pt-40 pb-40 pl-80 pr-60'>
+        <div id='content' className='h-screen flex items-center justify-center pl-80 pr-40'>
             <main>{children}</main>    
         </div>
     </>
