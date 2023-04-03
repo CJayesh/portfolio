@@ -1,11 +1,10 @@
 import React from 'react'
 
-type Props = {}
-
-function education({}: Props) {
-  return (
-    <div>u r in education</div>
-  )
+function Education() {
+    return (
+        <div id='education_page' className='flex h-screen'>
+            u r in education</div>
+    )
 }
 
-export default education
+export default Education

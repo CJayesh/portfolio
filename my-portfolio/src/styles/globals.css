@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    scroll-behavior: smooth;
-}
 
 body {
     background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);

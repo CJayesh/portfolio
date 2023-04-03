@@ -13,7 +13,7 @@ function Skills() {
     const icon_style = 'h-8 w-8 text-[#2a5298]'
     const heading_style = 'text-2xl mb-2'
     return (
-        <div className='text-center'>
+        <div id='skills_page' className='flex flex-col justify-center text-center h-screen'>
             <div className='mb-12'>
                 <div className={heading_style}>Tech</div>
                 <div className='flex flex-wrap justify-center'>

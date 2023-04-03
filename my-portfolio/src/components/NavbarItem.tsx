@@ -25,7 +25,7 @@ function getIcon(icon_name: string) {
 
 function NavbarItem({ icon, text, link }: Props) {
     return (
-        <Link href={link}>
+        <Link href={link} scroll={false}>
             <div className='text-white mb-3 p-1 flex items-center'>
                 {getIcon(icon)}
                 <span className='pl-2 text-lg'>{text}</span>
