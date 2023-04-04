@@ -6,21 +6,21 @@ import { SiXing } from 'react-icons/si'
 
 
 function Home() {
-    const media_icon_style = 'h-6 w-6 mr-4 cursor-pointer'
+    const media_icon_style = 'h-7 w-7 mr-4 cursor-pointer text-blue-700 hover:drop-shadow-md'
     return (
         <div id="home_page" className='flex items-center h-screen'>
             <div>
-                <Image src={pic} alt='my-pic'></Image>
+                <Image src={pic} alt='my-pic' priority></Image>
             </div>
             <div>
-                <div className='text-4xl font-bold mb-5'>Hi, I am Jayesh</div>
-                <div className='text-2xl italic mb-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quasi sed 
+                <div className='text-4xl font-bold mb-5 text-blue-700'>Hi, I am Jayesh</div>
+                <div className='text-xl italic mb-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quasi sed 
                     cupiditate eligendi beatae libero consectetur cum non ex, maiores excepturi doloribus odit
                     dolor quidem alias numquam aperiam commodi corporis?
                 </div>
                 <div className='flex w-full items-center'>
                     <a href='\assets\JayeshChavanResume.pdf' download={true}>
-                        <button className='flex items-center p-1 mr-16 border-b border-blue-500 rounded-md'>
+                        <button className='flex items-center p-2 mr-16 border-b border-blue-500 rounded-md hover:shadow-md text-blue-700'>
                             <BsDownload className='inline mr-1 h-5 w-5' />
                             Resume
                         </button>
