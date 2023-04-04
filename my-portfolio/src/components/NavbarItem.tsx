@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import React, { ReactElement, ReactNode } from 'react'
-import { BsBook, BsPuzzle, BsQuestionCircle } from 'react-icons/bs'
+import { BsBook, BsPuzzle, BsQuestionCircle, BsHouseDoor, BsLaptop } from 'react-icons/bs'
 import { HiOfficeBuilding } from 'react-icons/hi'
 
 type Props = {
-    icon: 'education' | 'skills' | 'experience',
+    icon: 'education' | 'skills' | 'experience' | 'home',
     text: string,
     link: string
 }
@@ -15,9 +15,11 @@ function getIcon(icon_name: string) {
         case 'education':
             return <BsBook className={classes}></BsBook>
         case 'experience':
-            return <HiOfficeBuilding className={classes}></HiOfficeBuilding>
+            return <BsLaptop className={classes}></BsLaptop>
         case 'skills':
             return <BsPuzzle className={classes}></BsPuzzle>
+        case 'home':
+            return <BsHouseDoor className={classes}></BsHouseDoor>
         default:
             return <BsQuestionCircle className={classes}></BsQuestionCircle>
     }
