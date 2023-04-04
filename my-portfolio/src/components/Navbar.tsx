@@ -9,7 +9,7 @@ function Navbar() {
         <Head>
             <title>My Site</title>
         </Head>
-        <div id='navbar' className='absolute z-2 w-fit h-screen px-5 py-1 flex flex-col'>
+        <div id='navbar' className='absolute z-2 w-fit h-screen px-5 py-1 flex flex-col bg-blue-700'>
             <div id='navbar-header' className='text-center text-white font-bold text-5xl mb-5'>
                 <Link href="/#home_page">JC</Link>
             </div>

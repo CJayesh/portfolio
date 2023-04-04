@@ -1,8 +1,10 @@
 import React from 'react'
 import SkillItem from '@/components/SkillItem'
-import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiAngular, SiReact, SiNextdotjs, SiPython, SiPytest, SiDjango,
+import {
+    SiHtml5, SiCss3, SiJavascript, SiTypescript, SiAngular, SiReact, SiNextdotjs, SiPython, SiPytest, SiDjango,
     SiRabbitmq, SiMysql, SiMongodb, SiJira, SiMiro, SiRedmine, SiAmazonaws, SiLinux, SiDocker, SiGit, SiGitlab, SiPycharm,
-    SiSass, SiTailwindcss } from 'react-icons/si'
+    SiSass, SiTailwindcss
+} from 'react-icons/si'
 import { TbBrandVscode } from 'react-icons/tb'
 import en_icon from '../..//public/icons/en-language-icon.svg'
 import de_icon from '../..//public/icons/de-language-icon.svg'
@@ -10,7 +12,7 @@ import Image from 'next/image'
 
 
 function Skills() {
-    const icon_style = 'h-8 w-8 text-[#2a5298]'
+    const icon_style = 'h-8 w-8 text-blue-700'
     const heading_style = 'text-2xl mb-2'
     return (
         <div id='skills_page' className='flex flex-col justify-center text-center h-screen'>
@@ -52,8 +54,8 @@ function Skills() {
             <div className='mb-12'>
                 <div className={heading_style}>Languages</div>
                 <div className='flex flex-wrap justify-center'>
-                    <SkillItem icon={<Image src={en_icon} width={32} alt='english'></Image>} text='English: Proficient'></SkillItem>
-                    <SkillItem icon={<Image src={de_icon} width={32} alt='english'></Image>} text='German: Beginner'></SkillItem>
+                    <SkillItem icon={<Image src={en_icon} width={32} alt='english'></Image>} text='English: Proficient C1'></SkillItem>
+                    <SkillItem icon={<Image src={de_icon} width={32} alt='english'></Image>} text='German: Beginner A1'></SkillItem>
                 </div>
             </div>
         </div>

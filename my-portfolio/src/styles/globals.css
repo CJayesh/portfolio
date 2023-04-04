@@ -3,12 +3,14 @@
 @tailwind utilities;
 
 
-body {
-    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
-    width: 100vw;
-    height: 100vh;
+@layer utilities {
+    .card-bg-gd {
+        background-color: #f2f2f2;
+    }
 }
 
-#navbar {
-    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+
+body {
+    @apply bg-slate-50 w-screen h-screen;
 }
+
