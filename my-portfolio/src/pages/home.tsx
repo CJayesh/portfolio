@@ -13,7 +13,7 @@ function Home() {
                 <Image src={pic} alt='my-pic' priority></Image>
             </div>
             <div>
-                <div className='text-4xl font-bold mb-5 text-blue-700'>Hi there, I'm Jayesh...</div>
+                <div className='text-4xl font-bold mb-5 text-blue-700'>Hi there, I&apos;m Jayesh...</div>
                 <div className='text-xl italic mb-5'>As an experienced developer with expertise in Web Development,
                 I am passionate about creating innovative solutions that solve complex problems.
                 With a talent for crafting clean, efficient code, I have worked on a wide range of projects,

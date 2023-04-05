@@ -16,18 +16,18 @@ const data = [
         location: 'Mumbai, India',
         duration: 'Nov 2021-Sep 2022',
         role: 'SDE 2',
-        tasks: [<SiPython className={icon_style}></SiPython>, <SiReact className={icon_style}></SiReact>,
-        <SiDjango className={icon_style}></SiDjango>, <SiDocker className={icon_style}></SiDocker>,
-        <SiGit className={icon_style}></SiGit>, <SiJira className={icon_style}></SiJira>]
+        tasks: [<SiPython key='py' className={icon_style}></SiPython>, <SiReact key='re' className={icon_style}></SiReact>,
+        <SiDjango key='dj' className={icon_style}></SiDjango>, <SiDocker key='dk' className={icon_style}></SiDocker>,
+        <SiGit key='git' className={icon_style}></SiGit>, <SiJira key='jira' className={icon_style}></SiJira>]
     },
     {
         company_name: 'Zeus Learning',
         location: 'Mumbai, India',
         duration: 'Jun 2019-Nov 2021',
         role: 'Software Engineer',
-        tasks: [<SiHtml5 className={icon_style}></SiHtml5>, <SiCss3 className={icon_style}></SiCss3>,
-        <SiAngular className={icon_style}></SiAngular>, <SiAmazonaws className={icon_style}></SiAmazonaws>,
-        <SiGitlab className={icon_style}></SiGitlab>, <SiLinux className={icon_style}></SiLinux>]
+        tasks: [<SiHtml5 key='html' className={icon_style}></SiHtml5>, <SiCss3 key='css' className={icon_style}></SiCss3>,
+        <SiAngular key='ag' className={icon_style}></SiAngular>, <SiAmazonaws key='aws' className={icon_style}></SiAmazonaws>,
+        <SiGitlab key='gl' className={icon_style}></SiGitlab>, <SiLinux key='linux' className={icon_style}></SiLinux>]
     }
 ]
 

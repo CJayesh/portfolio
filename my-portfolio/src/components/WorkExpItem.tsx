@@ -19,7 +19,7 @@ function WorkExpItem({ company_name, duration, role, location, tasks }: Props) {
             <div className='w-full flex-[0_0_50%] font-semibold'>{company_name}</div>
             <div className='w-full flex-[0_0_50%] text-right text-sm italic'>{duration}</div>
             <div className='w-full border-t-2 pt-2 mt-1 flex justify-evenly'>
-                {tasks.map((icon, i) => <span key={i}>{icon}</span>)}
+                {tasks.map((icon, i) =>icon)}
             </div>
         </div>
     )
