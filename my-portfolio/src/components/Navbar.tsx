@@ -29,13 +29,21 @@ function Navbar() {
                         { mobile_nav_expand ?
                             <span className='text-white font-bold text-3xl'>JC</span>
                             :
-                            <NavbarItem icon='arrow_down'></NavbarItem>
+                            <NavbarItem icon='menu'></NavbarItem>
                         }
                     </li>
-                    <li className={mobile_nav_expand ? styles.show : styles.hide}><NavbarItem icon='home' text='Home' link='/#home_page'></NavbarItem></li>
-                    <li className={mobile_nav_expand ? styles.show : styles.hide}><NavbarItem icon='skills' text='Skills' link='/#skills_page'></NavbarItem></li>
-                    <li className={mobile_nav_expand ? styles.show : styles.hide}><NavbarItem icon='experience' text='Experience' link='/#experience_page'></NavbarItem></li>
-                    <li className={mobile_nav_expand ? styles.show : styles.hide}><NavbarItem icon='education' text='Education' link='/#education_page'></NavbarItem></li>
+                    <li className={mobile_nav_expand ? styles.show : styles.hide}>
+                        <NavbarItem icon='home' text='Home' link='/#home_page'></NavbarItem>
+                    </li>
+                    <li className={mobile_nav_expand ? styles.show : styles.hide}>
+                        <NavbarItem icon='skills' text='Skills' link='/#skills_page'></NavbarItem>
+                    </li>
+                    <li className={mobile_nav_expand ? styles.show : styles.hide}>
+                        <NavbarItem icon='experience' text='Experience' link='/#experience_page'></NavbarItem>
+                    </li>
+                    <li className={mobile_nav_expand ? styles.show : styles.hide}>
+                        <NavbarItem icon='education' text='Education' link='/#education_page'></NavbarItem>
+                    </li>
                 </ul>
             </nav>
         </>
