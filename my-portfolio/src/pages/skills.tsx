@@ -13,7 +13,7 @@ import Image from 'next/image'
 
 function Skills() {
     const icon_style = 'h-8 w-8 text-blue-700'
-    const heading_style = 'text-2xl mb-2'
+    const heading_style = 'text-2xl mb-2 text-bold font-medium'
     return (
         <div id='skills_page' className='flex flex-col justify-center text-center min-h-screen'>
             <div className='mb-12'>

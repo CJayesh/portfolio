@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 import pic from '../../public/images/my-pic.png'
-import { BsLinkedin, BsInstagram, BsDownload } from 'react-icons/bs'
-import { SiXing } from 'react-icons/si'
+import { BsLinkedin, BsInstagram, BsDownload, BsGithub } from 'react-icons/bs'
+import { SiXing, SiHackerrank } from 'react-icons/si'
+import { FaFileDownload } from 'react-icons/fa'
 
 
 function Home() {
@@ -21,8 +22,8 @@ function Home() {
                 </div>
                 <div className='flex w-full items-center justify-center lg:justify-start'>
                     <a href='\assets\JayeshChavanResume.pdf' download={true}>
-                        <button className='flex items-center p-2 mr-16 border-b border-blue-500 rounded-md hover:shadow-md text-blue-700'>
-                            <BsDownload className='inline mr-1 h-5 w-5' />
+                        <button className='font-medium flex items-center p-2 mr-16 border-b border-blue-500 rounded-md hover:shadow-md text-blue-700'>
+                            <FaFileDownload className='inline mr-1 h-5 w-5 animate-bounce' />
                             Resume
                         </button>
                     </a>
@@ -31,6 +32,12 @@ function Home() {
                     </a>
                     <a href="https://www.xing.com/profile/JayeshMangesh_Chavan" target="_blank" rel="noopener noreferrer">
                         <SiXing className={media_icon_style}/>
+                    </a>
+                    <a href="https://github.com/CJayesh" target="_blank" rel="noopener noreferrer">
+                        <BsGithub className={media_icon_style}/>
+                    </a>
+                    <a href="https://www.hackerrank.com/cJayesh" target="_blank" rel="noopener noreferrer">
+                        <SiHackerrank className={media_icon_style}/>
                     </a>
                     <a href="https://www.instagram.com/c._.jayesh/" target="_blank" rel="noopener noreferrer">
                         <BsInstagram className={media_icon_style}/>

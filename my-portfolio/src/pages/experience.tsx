@@ -35,7 +35,7 @@ const data = [
 function Experience() {
     return (
         <div id="experience_page" className='min-h-screen flex flex-col justify-center items-center'>
-            <div className='text-center text-2xl mb-4'>Work Experience</div>
+            <div className='text-center text-2xl mb-4 font-medium'>Work Experience</div>
             {data.map((obj, i) => <WorkExpItem key={i} {...obj}></WorkExpItem>)}
         </div>
     )
