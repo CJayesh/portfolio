@@ -20,7 +20,7 @@ const edu_data: Array<EduProps> = [
 
 function Education() {
     return (
-        <div id='education_page' className='flex h-screen flex-col justify-center items-center'>
+        <div id='education_page' className='flex min-h-screen flex-col justify-center items-center'>
             <div className='text-center text-2xl mb-4'>Education</div>
             {
                 edu_data.map((obj, i) => <EducationItem {...obj} key={i}></EducationItem>)

@@ -15,7 +15,7 @@ function Skills() {
     const icon_style = 'h-8 w-8 text-blue-700'
     const heading_style = 'text-2xl mb-2'
     return (
-        <div id='skills_page' className='flex flex-col justify-center text-center h-screen'>
+        <div id='skills_page' className='flex flex-col justify-center text-center min-h-screen'>
             <div className='mb-12'>
                 <div className={heading_style}>Tech</div>
                 <div className='flex flex-wrap justify-center'>

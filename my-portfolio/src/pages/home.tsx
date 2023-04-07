@@ -8,18 +8,18 @@ import { SiXing } from 'react-icons/si'
 function Home() {
     const media_icon_style = 'h-7 w-7 mr-4 cursor-pointer text-blue-700 hover:drop-shadow-md'
     return (
-        <div id="home_page" className='flex items-center h-screen'>
-            <div>
+        <div id="home_page" className='flex flex-col lg:flex-row justify-center items-center min-h-screen'>
+            <div className='w-2/4 lg:w-[300px]'>
                 <Image src={pic} alt='my-pic' priority></Image>
             </div>
-            <div>
+            <div className='max-w-lg'>
                 <div className='text-4xl font-bold mb-5 text-blue-700'>Hi there, I&apos;m Jayesh...</div>
-                <div className='text-xl italic mb-5'>As an experienced developer with expertise in Web Development,
+                <div className='text-lg md:text-xl italic mb-5'>As an experienced developer with expertise in Web Development,
                 I am passionate about creating innovative solutions that solve complex problems.
                 With a talent for crafting clean, efficient code, I have worked on a wide range of projects,
                 from websites to large-scale enterprise applications. Let me help you take your project to the next level!
                 </div>
-                <div className='flex w-full items-center'>
+                <div className='flex w-full items-center justify-center lg:justify-start'>
                     <a href='\assets\JayeshChavanResume.pdf' download={true}>
                         <button className='flex items-center p-2 mr-16 border-b border-blue-500 rounded-md hover:shadow-md text-blue-700'>
                             <BsDownload className='inline mr-1 h-5 w-5' />
