@@ -1,0 +1,23 @@
+.nav_ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav_ul_mobile {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav_ul > li {
+    padding: 12px;
+    @apply hover:bg-blue-800
+}
+
+.nav_ul_mobile > li {
+    padding: 12px;
+    @apply bg-blue-700
+}
