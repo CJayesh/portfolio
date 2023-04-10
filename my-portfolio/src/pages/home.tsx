@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import pic from '../../public/images/my-pic.png'
-import { BsLinkedin, BsInstagram, BsDownload, BsGithub } from 'react-icons/bs'
+import { BsLinkedin, BsInstagram, BsGithub } from 'react-icons/bs'
 import { SiXing, SiHackerrank } from 'react-icons/si'
 import { FaFileDownload } from 'react-icons/fa'
 
@@ -14,7 +14,7 @@ function Home() {
                 <Image src={pic} alt='my-pic' priority></Image>
             </div>
             <div className='max-w-lg'>
-                <div className='text-4xl font-bold mb-5 text-blue-700'>Hi there, I&apos;m Jayesh...</div>
+                <div className='text-4xl font-medium mb-5 text-blue-700'>Hi there, I&apos;m Jayesh...</div>
                 <div className='text-lg md:text-xl italic mb-5'>As an experienced developer with expertise in Web Development,
                 I am passionate about creating innovative solutions that solve complex problems.
                 With a talent for crafting clean, efficient code, I have worked on a wide range of projects,

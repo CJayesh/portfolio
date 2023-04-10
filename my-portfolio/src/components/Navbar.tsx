@@ -13,7 +13,7 @@ function Navbar() {
                 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
             </Head>
             <nav className='hidden sm:block fixed h-full w-fit bg-blue-700 shadow-lg shadow-slate-900'>
-                <div className='text-center text-white font-bold px-4 mt-2 text-5xl'>
+                <div className='text-center text-white font-medium px-4 mt-2 text-5xl'>
                     <Link href="/#home_page">JC</Link>
                 </div>
                 <ul className={styles.nav_ul}>

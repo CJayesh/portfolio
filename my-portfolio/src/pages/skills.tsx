@@ -30,10 +30,10 @@ function Skills() {
                     <SkillItem icon={<SiTailwindcss className={icon_style}></SiTailwindcss>} text='TailwindCss'></SkillItem>
                     <SkillItem icon={<SiPython className={icon_style}></SiPython>} text='Python3'></SkillItem>
                     <SkillItem icon={<SiDjango className={icon_style}></SiDjango>} text='Django'></SkillItem>
-                    <SkillItem icon={<SiPytest className={icon_style}></SiPytest>} text='Pytest'></SkillItem>
-                    <SkillItem icon={<SiRabbitmq className={icon_style}></SiRabbitmq>} text='Rabbitmq'></SkillItem>
-                    <SkillItem icon={<SiMysql className={icon_style}></SiMysql>} text='MyDql'></SkillItem>
-                    <SkillItem icon={<SiMongodb className={icon_style}></SiMongodb>} text='Mongodb'></SkillItem>
+                    <SkillItem icon={<SiPytest className={icon_style}></SiPytest>} text='PyTest'></SkillItem>
+                    <SkillItem icon={<SiRabbitmq className={icon_style}></SiRabbitmq>} text='RabbitMQ'></SkillItem>
+                    <SkillItem icon={<SiMysql className={icon_style}></SiMysql>} text='MySQL'></SkillItem>
+                    <SkillItem icon={<SiMongodb className={icon_style}></SiMongodb>} text='MongoDb'></SkillItem>
                     <SkillItem icon={<SiAmazonaws className={icon_style}></SiAmazonaws>} text='AWS'></SkillItem>
                     <SkillItem icon={<SiLinux className={icon_style}></SiLinux>} text='Linux'></SkillItem>
                     <SkillItem icon={<SiDocker className={icon_style}></SiDocker>} text='Docker'></SkillItem>
@@ -47,15 +47,15 @@ function Skills() {
                     <SkillItem icon={<SiJira className={icon_style}></SiJira>} text='Jira'></SkillItem>
                     <SkillItem icon={<SiMiro className={icon_style}></SiMiro>} text='Miro'></SkillItem>
                     <SkillItem icon={<SiRedmine className={icon_style}></SiRedmine>} text='Redmine'></SkillItem>
-                    <SkillItem icon={<SiPycharm className={icon_style}></SiPycharm>} text='Pycharm'></SkillItem>
+                    <SkillItem icon={<SiPycharm className={icon_style}></SiPycharm>} text='PyCharm'></SkillItem>
                     <SkillItem icon={<TbBrandVscode className={icon_style}></TbBrandVscode>} text='VsCode'></SkillItem>
                 </div>
             </div>
             <div className='mb-12'>
                 <div className={heading_style}>Languages</div>
                 <div className='flex flex-wrap justify-center'>
-                    <SkillItem icon={<Image src={en_icon} width={32} alt='english'></Image>} text='English: Proficient C1'></SkillItem>
-                    <SkillItem icon={<Image src={de_icon} width={32} alt='english'></Image>} text='German: Beginner A1'></SkillItem>
+                    <SkillItem icon={<Image src={en_icon} width={32} alt='English'></Image>} text='English: Proficient C1'></SkillItem>
+                    <SkillItem icon={<Image src={de_icon} width={32} alt='German'></Image>} text='German: Beginner A1'></SkillItem>
                 </div>
             </div>
         </div>
