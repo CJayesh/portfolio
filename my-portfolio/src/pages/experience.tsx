@@ -2,7 +2,7 @@ import React from 'react'
 import WorkExpItem from '@/components/WorkExpItem'
 import {
     SiHtml5, SiCss3, SiTypescript, SiAngular, SiReact, SiPython, SiPytest, SiDjango,
-    SiRabbitmq, SiMysql, SiMongodb, SiJira, SiAmazonaws, SiLinux, SiDocker, SiGit, SiGitlab, SiSass
+    SiRabbitmq, SiMysql, SiMongodb, SiJira, SiAmazonaws, SiLinux, SiDocker, SiGit, SiGitlab, SiSass, SiJavascript
 } from 'react-icons/si'
 import { TbBrandVscode } from 'react-icons/tb'
 
@@ -32,6 +32,19 @@ const data = [
         <SiAngular key='ag' title='Angular' className={icon_style}></SiAngular>, <SiSass key='sass' title='SASS' className={icon_style}></SiSass>,
         <SiPython key='py' title='Python3' className={icon_style}></SiPython>, <SiAmazonaws key='aws' title='AWS' className={icon_style}></SiAmazonaws>,
         <SiMysql key='msql' title='MySQL' className={icon_style}></SiMysql>,<SiLinux key='linux' title='Linux' className={icon_style}></SiLinux>]
+    },
+    {
+        company_name: 'CellGo GmbH',
+        location: 'Paderborn, Germany',
+        duration: 'May 2023-Present',
+        role: 'Student Assistant - Developer',
+        tasks: [
+        <SiPython key='py' title='Python3' className={icon_style}></SiPython>,
+        <SiHtml5 key='html' title='HTML5' className={icon_style}></SiHtml5>,
+        <SiJavascript key='js' title='Javascript' className={icon_style}></SiJavascript>,
+        <SiCss3 key='css' title='CSS3' className={icon_style}></SiCss3>,
+        <SiGit key='git' title='Git' className={icon_style}></SiGit>,
+        ]
     }
 ]
 
